@@ -27,7 +27,7 @@
 
 
 
-
+###########################################################################
 
 # import pyttsx3
 # engine = pyttsx3.init()
@@ -61,15 +61,24 @@
 # engine.runAndWait()
 
 
+##################################################################################
 
-import os
+# import os
 
-#Select the directory whose content you want to list
+# #Specify the directory what you want to list
+# directory = "."
 
-directory_path ='/'
+# #List all files and directories in specified path
+# contents = os.listdir(directory)
 
-#Use the os model to list the directory content
-contents = os.listdir(directory_path)
+# #print each file and directory name
+# print("Contents of the directory :", directory)
 
-#Print the content of the directory
-print(contents)
+
+# #Print each files and directories name 
+# for item in contents:
+#     print(item)
+
+
+####################################################
+

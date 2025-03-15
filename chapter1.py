@@ -1,10 +1,10 @@
 import pyjokes
-# print("Printing jokes....")
+# print("Printing Jokes.....")
 
-# This print a random jokes
+
+# This prints a random jokes
 joke = pyjokes.get_joke()
 print(joke)
-
 
 # Hello Everyone
 # I'm Suman Kumar Dey
