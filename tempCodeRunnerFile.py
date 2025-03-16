@@ -1,4 +1,3 @@
-a = int(input("Enter the number:"))
-b = int(input("Enter the power:"))
-c = a**b
-print("The square of this number is:", c)
+a = (7, 0, 8, 0, 0, 9)
+n = a.count(0)
+print(n)
